@@ -19,17 +19,14 @@ cargo run
 ```
 ## How to Play
 
-1. The game starts by prompting you to guess a number within the range of 1 to 
-100.
+1. The game starts by prompting you to guess a number within the range of 1 to 100.
 2. Enter your guess, ensuring it's a valid positive integer.
-3. The program will respond with feedback on whether your guess is too small, 
-too big, or correct (and the game ends).
+3. The program will respond with feedback on whether your guess is too small, too big, or correct (and the game ends).
 4. Continue playing until you win!
 
 ## Features and Highlights
 
-- Utilizes Rust's `rand` crate for generating random numbers within a specified 
-range.
+- Utilizes Rust's `rand` crate for generating random numbers within a specified range.
 - Manages input validation using pattern matching and error handling mechanisms.
 - Implements decision logic with `match` expressions, comparing guessed values 
 to the secret number.
